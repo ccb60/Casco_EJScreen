@@ -37,3 +37,12 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Overlarge Data Files
+Original_Data/casco_block_groups.txt
+Original_Data/tract2010_LifeExpectancy.txt
+Original_Data/EJSCREEN_Full.txt
+Original_Data/2021_EJSCREEEN_columns-explained.xlsx
+
+# GIS DAta
+/GIS_Data/
