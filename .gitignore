@@ -39,9 +39,9 @@ vignettes/*.pdf
 .Renviron
 
 # Overlarge Data Files
-Original_Data/casco_block_groups.txt
-Original_Data/tract2010_LifeExpectancy.txt
-Original_Data/EJSCREEN_Full.txt
+Original_Data/casco_block_groups.csv
+Original_Data/tract2010_LifeExpectancy.csv
+Original_Data/EJSCREEN_Full.csv
 Original_Data/2021_EJSCREEEN_columns-explained.xlsx
 
 # GIS DAta
