@@ -89,7 +89,7 @@ challenges.  The raw CSV file contains more than 200,000 records, and more than
 the_file <- "casco_block_groups.csv"
 the_path <- file.path(data_folder, the_file)
 
-cb_data <- read_csv(the_path, n_max = 81,
+cb_data <- read_csv(the_path,
                     col_types = c(paste(c(rep('-',2),  'c-',  rep('d',2),
                                           rep('-',7), 'd'), collapse = '')))
 
