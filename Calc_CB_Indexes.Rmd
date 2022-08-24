@@ -161,7 +161,7 @@ thresholds <- bind_rows(National, Maine, Region, .id = 'Scale') %>%
   mutate(Scale = c('National', 'Maine', 'Region'))
 ```
 
-## Calculate NUmber of Threshold Exceedences
+## Calculate Number of Threshold Exceedences
 I use a functional programming approach for calculating whether specific Casco
 Bay Census block groups exceed each threshold.  Here I pass both a dataframe and
 a names list or vector containing the thresholds.
@@ -172,7 +172,6 @@ threshold_compare <- function(.data, .thresholds, .col) {
   return(.data[.col] > .thresholds[.col])
 }
 ```
-
 
 ```{r}
 National_Exceeds <- map(as.list(nms), 
